@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0000000000000000000002 /* EnduroFleetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* EnduroFleetApp.swift */; };
+		BB0000000000000000000004 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* Motorcycle.swift */; };
+		BB0000000000000000000006 /* MotorcycleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* MotorcycleForm.swift */; };
+		BB0000000000000000000008 /* MotorcycleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* MotorcycleStore.swift */; };
+		BB000000000000000000000A /* MotorcycleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000009 /* MotorcycleListView.swift */; };
+		BB000000000000000000000C /* AddMotorcycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000B /* AddMotorcycleView.swift */; };
+		BB000000000000000000000E /* EditMotorcycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000D /* EditMotorcycleView.swift */; };
+		BB0000000000000000000010 /* MotorcycleFormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000F /* MotorcycleFormFields.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000011 /* EnduroFleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnduroFleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000001 /* EnduroFleetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduroFleetApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* MotorcycleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleForm.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* MotorcycleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleStore.swift; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* MotorcycleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleListView.swift; sourceTree = "<group>"; };
+		AA000000000000000000000B /* AddMotorcycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMotorcycleView.swift; sourceTree = "<group>"; };
+		AA000000000000000000000D /* EditMotorcycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMotorcycleView.swift; sourceTree = "<group>"; };
+		AA000000000000000000000F /* MotorcycleFormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleFormFields.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF000000000000000000001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0000000000000000000012 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000013 /* EnduroFleet */,
+				CC0000000000000000000014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000013 /* EnduroFleet */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000001 /* EnduroFleetApp.swift */,
+				CC0000000000000000000015 /* Models */,
+				CC0000000000000000000016 /* Store */,
+				CC0000000000000000000017 /* Views */,
+			);
+			path = EnduroFleet;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000003 /* Motorcycle.swift */,
+				AA0000000000000000000005 /* MotorcycleForm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000016 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000007 /* MotorcycleStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000009 /* MotorcycleListView.swift */,
+				AA000000000000000000000B /* AddMotorcycleView.swift */,
+				AA000000000000000000000D /* EditMotorcycleView.swift */,
+				AA000000000000000000000F /* MotorcycleFormFields.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000011 /* EnduroFleet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0000000000000000000018 /* EnduroFleet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220000000000000000000022 /* Build configuration list for PBXNativeTarget "EnduroFleet" */;
+			buildPhases = (
+				FF000000000000000000001A /* Sources */,
+				FF000000000000000000001B /* Frameworks */,
+				FF000000000000000000001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnduroFleet;
+			productName = EnduroFleet;
+			productReference = AA0000000000000000000011 /* EnduroFleet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0000000000000000000019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD0000000000000000000018 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 220000000000000000000021 /* Build configuration list for PBXProject "EnduroFleet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0000000000000000000012;
+			productRefGroup = CC0000000000000000000014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0000000000000000000018 /* EnduroFleet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF000000000000000000001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF000000000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000002 /* EnduroFleetApp.swift in Sources */,
+				BB0000000000000000000004 /* Motorcycle.swift in Sources */,
+				BB0000000000000000000006 /* MotorcycleForm.swift in Sources */,
+				BB0000000000000000000008 /* MotorcycleStore.swift in Sources */,
+				BB000000000000000000000A /* MotorcycleListView.swift in Sources */,
+				BB000000000000000000000C /* AddMotorcycleView.swift in Sources */,
+				BB000000000000000000000E /* EditMotorcycleView.swift in Sources */,
+				BB0000000000000000000010 /* MotorcycleFormFields.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11000000000000000000001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11000000000000000000001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11000000000000000000001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Enduro Fleet";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hambasanvlad.EnduroFleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		110000000000000000000020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Enduro Fleet";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hambasanvlad.EnduroFleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220000000000000000000021 /* Build configuration list for PBXProject "EnduroFleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11000000000000000000001D /* Debug */,
+				11000000000000000000001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220000000000000000000022 /* Build configuration list for PBXNativeTarget "EnduroFleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11000000000000000000001F /* Debug */,
+				110000000000000000000020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0000000000000000000019 /* Project object */;
+}

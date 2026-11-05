@@ -1,0 +1,24 @@
+# Compilează aplicația pe un Mac din GitHub (gratuit), ca să verificăm build-ul fără Mac local.
+name: iOS build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild build \
+            -project EnduroFleet.xcodeproj \
+            -scheme EnduroFleet \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGNING_ALLOWED=NO
